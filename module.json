@@ -1,0 +1,73 @@
+{
+  "id": "uo-vetvi",
+  "title": "UO · Ветви сценария",
+  "description": "<p>Архитектура кампании: узлы, развилки, метки и финалы. Ведущий видит, что на что выводит и какие финалы партия уже отрезала.</p>",
+  "version": "0.6.0",
+  "url": "https://github.com/Nikifour/uo-vetvi",
+  "manifest": "https://github.com/Nikifour/uo-vetvi/releases/latest/download/module.json",
+  "readme": "https://github.com/Nikifour/uo-vetvi/blob/main/README.md",
+  "bugs": "https://github.com/Nikifour/uo-vetvi/issues",
+  "changelog": "https://github.com/Nikifour/uo-vetvi/releases",
+  "license": "https://github.com/Nikifour/uo-vetvi/blob/main/LICENSE",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "timmi"
+    }
+  ],
+  "esmodules": [
+    "scripts/uo-vetvi.mjs"
+  ],
+  "styles": [
+    "styles/uo-vetvi.css"
+  ],
+  "packFolders": [
+    {
+      "name": "UO",
+      "sorting": "m",
+      "color": "#7555a5",
+      "folders": [
+        {
+          "name": "Модули",
+          "sorting": "m",
+          "folders": [
+            {
+              "name": "Ветви сценария",
+              "sorting": "m",
+              "packs": [
+                "uo-vetvi-help",
+                "uo-vetvi-help-en"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "uo-vetvi-help",
+      "label": "Ветви сценария · Как пользоваться",
+      "path": "packs/uo-vetvi-help",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "uo-vetvi-help-en",
+      "label": "Scenario Branches · How to use",
+      "path": "packs/uo-vetvi-help-en",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "download": "https://github.com/Nikifour/uo-vetvi/releases/download/v0.6.0/module.zip"
+}
