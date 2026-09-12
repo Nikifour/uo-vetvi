@@ -2,7 +2,7 @@
   "id": "uo-vetvi",
   "title": "UO · Ветви сценария",
   "description": "<p>Архитектура кампании: узлы, развилки, метки и финалы. Ведущий видит, что на что выводит и какие финалы партия уже отрезала.</p>",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "url": "https://github.com/Nikifour/uo-vetvi",
   "manifest": "https://github.com/Nikifour/uo-vetvi/releases/latest/download/module.json",
   "readme": "https://github.com/Nikifour/uo-vetvi/blob/main/README.md",
@@ -69,5 +69,5 @@
       }
     }
   ],
-  "download": "https://github.com/Nikifour/uo-vetvi/releases/download/v0.6.0/module.zip"
+  "download": "https://github.com/Nikifour/uo-vetvi/releases/download/v0.6.1/module.zip"
 }
