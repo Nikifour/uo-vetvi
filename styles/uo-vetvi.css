@@ -156,6 +156,14 @@
 
 .uo-vetvi-uzel.uo-vid-razvilka { border-style: dashed; }
 .uo-vetvi-uzel.uo-vid-final { border-color: var(--uo-zhivo); }
+/* Запас — в рукаве, а не на пути: точечная рамка, приглушённый фон. Пройденный — как все пройденные. */
+.uo-vetvi-uzel.uo-vid-zapas {
+  border-style: dotted;
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, .04) 0 6px, transparent 6px 12px),
+    linear-gradient(180deg, rgba(44, 40, 56, .95), rgba(28, 25, 36, .95));
+}
+.uo-vetvi-uzel.uo-vid-zapas:not(.uo-projden) { opacity: .85; }
 .uo-vetvi-uzel.uo-nachalo { box-shadow: 0 0 0 2px rgba(195, 169, 105, .35), 0 3px 10px rgba(0, 0, 0, .5); }
 .uo-vetvi-uzel.uo-projden { border-color: var(--uo-projden); }
 .uo-vetvi-uzel.uo-projden .uo-vetvi-shapka .uo-znak { color: var(--uo-projden); }

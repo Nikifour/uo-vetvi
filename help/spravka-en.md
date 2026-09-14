@@ -32,13 +32,18 @@ The canvas is dragged by empty space and zooms with the wheel. A card is dragged
 
 ## The kind of a node is not decoration
 
-Three kinds, and the difference between them is more than a symbol:
+Four kinds, and the difference between them is more than a symbol:
 
 - **◆ Scene** — you can come back to it. The party left a hook in act one and returned to it a month later: that is ordinary play, and nothing closes.
 - **◇ Fork** — a choice made once. As soon as one of its exits has been taken, **the rest close for good** — even if some roundabout road leads back to the fork. The baron was executed, so the branch where he is spared is gone.
 - **★ Ending** — the outcome of the campaign. Endings are what the panel counts.
+- **✚ Reserve** — a scene up your sleeve. The rescue that pulls the party out of a hopeless fight; the help that arrives when there is no way without it. **No arrows lead to a reserve node**: it happens not because the party walked there but because the GM decided so. On the canvas it has a dotted border, and without saved positions it is laid out in its own lane below the scenario.
 
 Without the fork rule the count would be empty: there is nearly always a roundabout road to any node, and "cut off" would never fire. By choosing a kind, the author tells the module what can be returned to.
+
+**Spending a reserve.** When the GM plays it, tick the node as **passed**, like any other. Its marks are set and the arrows leaving it open. A spent reserve stays passed, so it is plain that this rescue has already been used. It helps to gather reserves into one branch — "Rescues" — so they read as a group on the canvas.
+
+For the ending count an unspent reserve is **always available**: the GM can play it at any moment. So an ending reachable only through a reserve rescue is never called cut off. The scheme does not know conditions like "only before meeting the master" — this is the same estimate from above as with marks below.
 
 ## Campaign marks
 
@@ -68,9 +73,10 @@ This is not counted by eye. The module grows two sets at once: a reachable node 
 The **"Check"** button reads the scenario as an editor would, not as a player, and says what does not add up:
 
 - no start is set;
-- nodes nothing leads to (orphans);
-- dead ends not marked as endings;
+- nodes nothing leads to (orphans) — reserve nodes are not listed, nor what lies beyond them;
+- dead ends not marked as endings — except reserves: a rescue may lead nowhere further;
 - endings that have a way out;
+- reserve nodes that arrows lead into — perhaps they are ordinary scenes;
 - marks that are required somewhere but that no node sets;
 - arrows leading nowhere.
 
@@ -121,7 +127,7 @@ UOVetvi.parties.split("The Siege", id, "Fridays")   // inherit the progress
 
 ## Language
 
-The module speaks the language chosen in Foundry: Russian in the source, English through the `lang/en.json` dictionary. Switching is the ordinary Foundry language setting.
+Russian in the source, English through the `lang/en.json` dictionary. Which one is used is decided by the **"Module language"** setting — each participant has their own: **"Same as Foundry"** (the default: Russian if Foundry is in Russian, English for any other language), **"Русский"** or **"English"**. So Foundry can run in English while the module speaks Russian, and the other way round. Changing it reloads the world.
 
 ## Updating a scenario without losing progress
 

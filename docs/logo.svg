@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+    
+  <defs>
+    <radialGradient id="fon" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#2a2231"/>
+      <stop offset="100%" stop-color="#110e15"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#fon)"/>
+  <rect x="30.72" y="30.72" width="962.56" height="962.56" rx="61.44"
+        fill="none" stroke="#e8772e" stroke-width="12.288"/>
+    <g transform="translate(262 130) scale(1.25)">
+    <path d="M 92 210 L 134 210" stroke="#e9d29a" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M 226 210 C 270 210, 280 128, 318 116" stroke="#e9d29a" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M 244 222 C 272 262, 290 294, 306 300" stroke="#e9d29a" stroke-width="14" stroke-linecap="round" fill="none" stroke-dasharray="1 28"/>
+    <circle cx="62" cy="210" r="30" fill="#e9d29a"/>
+    <polygon points="134,210 180,164 226,210 180,256" fill="none" stroke="#e9d29a" stroke-width="14" stroke-linejoin="round"/>
+    <polygon points="340.0,62.0 352.2,91.3 383.7,93.8 359.7,114.4 367.0,145.2 340.0,128.7 313.0,145.2 320.3,114.4 296.3,93.8 327.8,91.3" fill="#e8772e"/>
+    <circle cx="340" cy="308" r="26" fill="none" stroke="#8f8599" stroke-width="12"/></g>
+    <text x="512" y="772" font-family="Georgia, Cambria, serif" font-size="104" font-weight="700"
+     fill="#e9d29a" text-anchor="middle">Ветви</text><text x="512" y="884.32" font-family="Georgia, Cambria, serif" font-size="104" font-weight="700"
+     fill="#e9d29a" text-anchor="middle">сценария</text>
+    <text x="512" y="118" font-family="Bahnschrift, 'Segoe UI', sans-serif" font-size="44" font-weight="600"
+     letter-spacing="7.92" fill="#e8772e" text-anchor="middle">UO</text>
+  </svg>

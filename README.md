@@ -34,7 +34,9 @@ https://github.com/Nikifour/uo-vetvi/releases/latest/download/module.json
 
 **Вид узла — не украшение.** **◆ Сцена** остаётся открытой: к брошенной зацепке
 можно вернуться через месяц. **◇ Развилка** захлопывается: пройден один выход —
-остальные закрыты навсегда. **★ Финал** — итог, который считается.
+остальные закрыты навсегда. **★ Финал** — итог, который считается. **✚ Запас** —
+сцена в рукаве, спасение по обстановке: стрелок к нему нет, потраченный отмечают
+пройденным, и его выходы открываются.
 
 **Метки кампании.** Короткие факты о мире: «барон жив», «печать сломана». Узел
 метки ставит и снимает, стрелка их требует. За столом случается всякое, поэтому
@@ -92,14 +94,16 @@ UOVetvi.parties.list("Пропавший караван")     // партии с
 **Scenario Branches** is a campaign map for Foundry VTT: nodes, forks, campaign
 flags and endings. Mark what happened and see which endings are still possible
 and which your party has already cut off. Several parties can run the same
-scenario with their own progress. The interface follows Foundry's language
-(Russian and English); an English guide ships as a compendium.
+scenario with their own progress. The interface is in Russian and English — it
+follows Foundry's language, or pick one in the module settings; an English guide
+ships as a compendium.
 
 Install with the manifest URL:
 `https://github.com/Nikifour/uo-vetvi/releases/latest/download/module.json`
 
 ## Язык
 
-Модуль говорит на языке, выбранном в Foundry: русский в исходнике, английский
-словарём `lang/en.json`. Ключ словаря — сама русская фраза, как в gettext:
-непереведённое не превращается в пустоту, а остаётся русским.
+Русский в исходнике, английский словарём `lang/en.json`. Язык выбирается
+в настройках модуля: «Как в Foundry» (русский при русском Foundry, иначе
+английский), «Русский» или «English». Ключ словаря — сама русская фраза,
+как в gettext: непереведённое не превращается в пустоту, а остаётся русским.
